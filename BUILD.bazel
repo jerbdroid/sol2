@@ -1,0 +1,8 @@
+cc_library(
+    name = "sol2",
+    hdrs = glob([
+        "include/**/*.hpp",
+    ]),
+    includes = ["./include/"],
+    visibility = ["//visibility:public"],
+)

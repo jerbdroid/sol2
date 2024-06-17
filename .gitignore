@@ -131,3 +131,4 @@ lua-5.2/
 ~syncthing*
 .tmp
 **/._**
+MODULE.bazel.lock
